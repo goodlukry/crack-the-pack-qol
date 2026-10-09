@@ -1,0 +1,60 @@
+[
+  {
+    "test": "QoL feature loaded",
+    "passed": true
+  },
+  {
+    "test": "initial press does not double click",
+    "passed": true
+  },
+  {
+    "test": "long hold produces about 15 clicks/sec after delay",
+    "passed": true
+  },
+  {
+    "test": "release stops immediately",
+    "passed": true
+  },
+  {
+    "test": "release clears hold timer",
+    "passed": true
+  },
+  {
+    "test": "focus loss stops immediately",
+    "passed": true
+  },
+  {
+    "test": "focus loss clears hold timer",
+    "passed": true
+  },
+  {
+    "test": "short tap stays a single click",
+    "passed": true
+  },
+  {
+    "test": "repeat frequency stable at 30 fps",
+    "passed": true
+  },
+  {
+    "test": "long frame does not burst clicks",
+    "passed": true
+  },
+  {
+    "test": "animation delay shortened threefold",
+    "passed": true
+  },
+  {
+    "test": "minimum alarm is one frame",
+    "passed": true
+  },
+  {
+    "test": "high upgrades cannot overshoot interpolation",
+    "passed": true
+  },
+  {
+    "actual": 0.30000000000000004,
+    "test": "animation interpolation accelerated",
+    "passed": true,
+    "explicit": 0.30000000000000004
+  }
+]

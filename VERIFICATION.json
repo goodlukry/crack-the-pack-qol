@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-09",
+  "packaging_tests_passed": 14,
+  "real_data_install_restore": [
+    {
+      "project": "crack-the-pack-qol",
+      "baseline": "原版",
+      "install_restore_sha256_verified": true
+    },
+    {
+      "project": "crack-the-pack-qol",
+      "baseline": "开源汉化 v1.1.0",
+      "install_restore_sha256_verified": true
+    },
+    {
+      "project": "crack-the-pack-qol",
+      "baseline": "本地汉化 v1.0",
+      "install_restore_sha256_verified": true
+    }
+  ],
+  "gui_tested": false,
+  "previous_local_runtime_assertions_passed": 14
+}

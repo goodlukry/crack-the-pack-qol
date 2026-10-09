@@ -1,0 +1,40 @@
+{
+  "game": "Crack the Pack",
+  "game_maker_version": "2024.14.4.0",
+  "kind": "qol",
+  "version": "1.1.0",
+  "date": "2026-10-09",
+  "title": "开包狂潮 动画加速与长按连点 v1.1.0",
+  "backup_directory": "QoLBackup_OSS_v1",
+  "set_language": null,
+  "targets": [
+    {
+      "label": "原版",
+      "base_sha256": "dea7c94ad726f85403361b40d40c71c0e2f08b5c73de65ef50240c63f3bac449",
+      "target_sha256": "704d86d26bc26114b4d5a2976fea390448c08908ef2f9e9e5abd5d60b7dd24c8",
+      "patch_file": "patches/from-original.ctpdelta",
+      "patch_sha256": "db09ac34638c5b0c539e3ce60262c1f500ab70a5043ad21e57707a0da6d43374"
+    },
+    {
+      "label": "开源汉化 v1.1.0",
+      "base_sha256": "f71289b09b48120b8f454a81eb57e2f54e1a11a924ce762b19a9e7f9820cc244",
+      "target_sha256": "899765baf2c7c19130295f6adf0231905fd55368f6585a6e044c201a1c76bbc8",
+      "patch_file": "patches/from-zh-v1.1.ctpdelta",
+      "patch_sha256": "32ab1db39ee42a04eac264b78f5507e538d2a615fcd6c74966d44dddf99f7eb8"
+    },
+    {
+      "label": "本地汉化 v1.0",
+      "base_sha256": "1d0ada57f7c6c5e1633ed3092ad38cceb73dc1590dbeec2ffe5dac1ef9bfe7bb",
+      "target_sha256": "29c2dd3ed4339269b79a643e5d506f6c45118fbee1dcb8b265b4a27dc75f9ba6",
+      "patch_file": "patches/from-zh-v1.0.ctpdelta",
+      "patch_sha256": "d1b5cb52de231d77eb3be22652e91c6dc226d28be41d9628c6225952cbc3c989"
+    }
+  ],
+  "assets": [
+    {
+      "name": "qol_settings.json",
+      "sha256": "70bb9afcb6af71f09ce8518c8258acd56f4aa0cf64e6979b7eabd1dde9dd415f",
+      "overwrite": false
+    }
+  ]
+}

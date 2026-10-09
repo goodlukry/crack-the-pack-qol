@@ -1,0 +1,14 @@
+_local/
+__pycache__/
+*.pyc
+*.win
+*.exe
+*.dll
+*.ogg
+*.ttf
+*.otf
+*.ttc
+*.tmp
+*Backup*/
+dist/
+.DS_Store

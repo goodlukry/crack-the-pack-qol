@@ -1,0 +1,7 @@
+* text=auto
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.py text eol=lf
+*.gml text eol=lf
+*.csx text eol=lf
+*.ctpdelta binary
